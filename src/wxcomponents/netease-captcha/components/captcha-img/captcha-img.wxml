@@ -1,0 +1,1 @@
+<image class="image-class captcha-img" wx:if="{{url}}" src="{{url}}" mode="{{mode}}" preview="false" bindload="handleLoaded" binderror="handleError" style="{{ imgStyle + (autoWidth ? 'width: ' + width + 'px;' : '') }}"></image>

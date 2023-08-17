@@ -1,0 +1,1 @@
+<image class="{{ imageClass }} query-img-{{ uuid }}" a:if="{{url}}" src="{{url}}" mode="{{mode}}" onLoad="handleLoaded" onError="handleError" style="{{ imgStyle + (autoWidth ? 'width: ' + width + 'px;' : '') }}"></image>
